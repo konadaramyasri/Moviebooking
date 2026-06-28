@@ -35,25 +35,28 @@ The objective of this project is to develop a simple web application that manage
 ```
 MovieBooking
 │
-├── src
-│   └── main
-│       ├── java
-│       │   └── com.moviebooking
-│       │       ├── BookticketServlet.java
-│       │       ├── DBConnect.java
-│       │       ├── DeleteBookingServlet.java
-│       │       ├── EditBookingServlet.java
-│       │       ├── UpdateBookingServlet.java
-│       │       └── ViewBookingsServlet.java
-│       │
-│       └── webapp
-│           ├── BookTicket.html
-│           ├── BookingSuccess.html
-│           ├── ViewBookings.html
-│           ├── images
-│           │   └── mb.jpeg
-│           ├── META-INF
-│           └── WEB-INF
+└── src
+    └── main
+        ├── java
+        │   └── com
+        │       └── moviebooking
+        │           ├── BookticketServlet.java
+        │           ├── DBConnect.java
+        │           ├── DeleteBookingServlet.java
+        │           ├── EditBookingServlet.java
+        │           ├── UpdateBookingServlet.java
+        │           └── ViewBookingsServlet.java
+        │
+        └── webapp
+            ├── BookTicket.html
+            ├── META-INF
+            │   └── MANIFEST.MF
+            └── WEB-INF
+                ├── BookingSuccess.html
+                ├── ViewBookings.html
+                └── images
+                    └── mb.jpeg
+
 ```
 
 ## Software Requirements
@@ -66,14 +69,14 @@ MovieBooking
 
 ## How to Run
 
-1. Clone or download the repository.
+1. Download the project from GitHub.
 2. Import the project into Eclipse IDE.
-3. Configure Apache Tomcat.
-4. Add the Oracle JDBC Driver.
-5. Create the required database table in Oracle.
+3. Configure Apache Tomcat 9 as the target server.
+4. Add the Oracle JDBC Driver (`ojdbc8.jar`) to the project's build path.
+5. Create the required Oracle Database table.
 6. Update the database connection details in `DBConnect.java`.
-7. Run the project on Apache Tomcat.
-8. Open the application in your browser.
+7. Deploy the project on Apache Tomcat.
+8. Access the application through your web browser.
 
 ## Project Modules
 
