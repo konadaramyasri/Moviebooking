@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Movie Booking</title>
+
+<style>
+
+h2{
+    padding-top: 30px;
+    position:absolute;
+    top:20px;
+    width:100%;
+    text-align:center;
+        color:rgb(209, 151, 5);
+    font-size:35px;
+    z-index:2;
+}
+
+.hello img{
+    width:100%;
+    height:100vh;
+    object-fit:cover;
+}
+
+.reg{
+    position:absolute;
+    top:120px;
+    left:100px;
+    color:white;
+    background:rgba(0,0,0,0.5);
+    padding:30px;
+    border-radius:15px;
+}
+
+.reg label{
+    font-size:18px;
+    font-weight:bold;
+
+}
+
+.reg input[type="text"]{
+    width:250px;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:15px;
+    border:none;
+    border-radius:5px;
+}
+
+
+.reg input[type="submit"]{
+    width:100%;
+    padding:10px;
+    background:red;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+.reg input[type="submit"]:hover{
+   background-color:rgb(15, 184, 15);
+}
+.a{
+   margin-top:10px;
+    padding-top: 5px;
+    color:white;
+}
+
+</style>
+
+</head>
+
+<body>
+<h2 class="a">BOOK YOUR</h2>
+<h2>MOVIE TICKETS</h2>
+
+<div class="hello">
+    <img src="mb.jpeg" alt="Movie Booking Background">
+</div>
+
+<section class="reg">
+
+<form action="register" method="post">
+
+<label>Customer Name</label><br>
+<input type="text" name="customerName" placeholder="Customer Name">
+
+<br>
+
+<label>Movie Name</label><br>
+<input type="text" name="movieName" placeholder="Movie Name">
+
+<br>
+
+<label>Seat Number</label><br>
+<input type="text" name="seatNumber" placeholder="Seat Number">
+
+<br>
+
+<label>Ticket Price</label><br>
+<input type="text" name="ticketPrice" placeholder="Ticket Price">
+
+<br><br>
+
+<input type="submit" value="Book Ticket">
+
+</form>
+
+</section>
+
+</body>
+</html>
