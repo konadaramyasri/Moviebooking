@@ -78,22 +78,7 @@ MovieBooking
 6. Update the database connection details in `DBConnect.java`.
 7. Deploy the project on Apache Tomcat.
 8. Access the application through your web browser.
-
-## Project Modules
-
-- Book Ticket
-- View Bookings
-- Update Booking
-- Delete Booking
-
-## Future Enhancements
-
-- User Login
-- Seat Selection
-- Online Payment
-- Email Confirmation
-- Responsive User Interface
-
+  
 ## Author
 
 Konada Ramya Sri
