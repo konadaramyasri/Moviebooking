@@ -1,3 +1,4 @@
+````md
 # Movie Booking System
 
 ## Project Overview
@@ -15,7 +16,7 @@ The objective of this project is to develop a simple web application that manage
 - Edit booking details
 - Update booking information
 - Delete bookings
-- Store booking information in Oracle Database
+- Store booking information in an Oracle Database
 - User-friendly interface
 
 ## Technologies Used
@@ -26,13 +27,13 @@ The objective of this project is to develop a simple web application that manage
 - CSS
 - Oracle Database
 - JDBC
-- Apache Tomcat
+- Apache Tomcat 9
 - Eclipse IDE
 - GitHub
 
 ## Project Structure
 
-```
+```text
 MovieBooking
 │
 ├── README.md
@@ -42,7 +43,7 @@ MovieBooking
         ├── java
         │   └── com
         │       └── moviebooking
-        │           ├── Bookticketsevlet.java
+        │           ├── BookTicketServlet.java
         │           ├── DBConnect.java
         │           ├── DeleteBookingServlet.java
         │           ├── EditBookingServlet.java
@@ -58,15 +59,15 @@ MovieBooking
                 ├── ViewBookings.html
                 └── images
                     └── mb.jpeg
-```
+````
 
 ## Software Requirements
 
-- Java JDK
-- Eclipse IDE
-- Apache Tomcat 9
-- Oracle Database
-- Oracle JDBC Driver (ojdbc8.jar)
+* Java JDK
+* Eclipse IDE
+* Apache Tomcat 9
+* Oracle Database
+* Oracle JDBC Driver (`ojdbc8.jar`)
 
 ## How to Run
 
@@ -79,19 +80,19 @@ MovieBooking
 7. Deploy the project on Apache Tomcat.
 8. Access the application through your web browser.
 
-
 ## Future Enhancements
 
-- Add user login functionality.
-- Display movie posters and show timings.
-- Improve the user interface with a responsive design.
-- Add a search option to find bookings quickly.
-- Generate a unique booking ID for each booking.
-
+* Add user login functionality.
+* Display movie posters and show timings.
+* Improve the user interface with a responsive design.
+* Add a search option to find bookings quickly.
+* Generate a unique booking ID for each booking.
 
 ## Author
 
-Konada Ramya Sri
+**Konada Ramya Sri**
 
 B.Tech Computer Science and Engineering
 
+```
+```
