@@ -78,7 +78,19 @@ MovieBooking
 6. Update the database connection details in `DBConnect.java`.
 7. Deploy the project on Apache Tomcat.
 8. Access the application through your web browser.
-  
+
+
+## Future Enhancements
+
+- Add user login functionality.
+- Display movie posters and show timings.
+- Improve the user interface with a responsive design.
+- Add a search option to find bookings quickly.
+- Generate a unique booking ID for each booking.
+
+  ```md
+   ```
+
 ## Author
 
 Konada Ramya Sri
