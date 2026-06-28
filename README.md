@@ -35,12 +35,14 @@ The objective of this project is to develop a simple web application that manage
 ```
 MovieBooking
 │
+├── README.md
+│
 └── src
     └── main
         ├── java
         │   └── com
         │       └── moviebooking
-        │           ├── BookticketServlet.java
+        │           ├── Bookticketsevlet.java
         │           ├── DBConnect.java
         │           ├── DeleteBookingServlet.java
         │           ├── EditBookingServlet.java
@@ -56,7 +58,6 @@ MovieBooking
                 ├── ViewBookings.html
                 └── images
                     └── mb.jpeg
-
 ```
 
 ## Software Requirements
