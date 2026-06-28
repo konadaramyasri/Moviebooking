@@ -88,8 +88,6 @@ MovieBooking
 - Add a search option to find bookings quickly.
 - Generate a unique booking ID for each booking.
 
-  ```md
-   ```
 
 ## Author
 
